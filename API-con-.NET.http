@@ -1,4 +1,4 @@
-@API_con_.NET_HostAddress = http://localhost:5236
+@API_con_.NET_HostAddress = http://localhost:5100
 
 GET {{API_con_.NET_HostAddress}}/weatherforecast/
 Accept: application/json
