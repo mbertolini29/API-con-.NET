@@ -32,10 +32,10 @@ public class WeatherForecastController : ControllerBase
         }
     }
 
+    //[Route("Get/Weatherforecast")]
+    //[Route("Get/Weatherforecast2")]
+    //[Route("[action]")]
     [HttpGet(Name = "GetWeatherForecast")]
-    [Route("Get/Weatherforecast")]
-    [Route("Get/Weatherforecast2")]
-    [Route("[action]")]
     public IEnumerable<WeatherForecast> Get()
     {
         //en ambiente de produccion.
